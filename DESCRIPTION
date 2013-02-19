@@ -4,6 +4,7 @@ Title: Ahmadou misc functions
 Version: 0.0
 Date: 2013-02-18
 Depends : R (>= 2.10.0), MASS, sandwich
+Imports : sandwich
 Author: Dicko Ahmadou
 Maintainer: Dicko Ahmadou <dicko.ahmadou@gmail.com>
 Description: Some functions I use and don't want to source

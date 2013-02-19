@@ -8,6 +8,7 @@
 ##' @param vcov
 ##' @param ...
 ##' @return confint
+##' @export
 ##' @author ahmadou
 confintRob <- function(object, parm, level = 0.95, vcov = NULL, ...) {
     if (is.null(vcov)) vcov <- vcov(object)

@@ -26,6 +26,7 @@
 ##' @title Print R objects on memory and their size
 ##' @param ...
 ##' @param n
+##' @export
 ##' @return R objects
 ##' @author ahmadou
 lsos <- function(..., n=10) {
