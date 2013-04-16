@@ -1,3 +1,15 @@
+##' .. content for \description{} (no empty lines) ..
+##'
+##' .. content for \details{} ..
+##' @title
+##' @param pos
+##' @param pattern
+##' @param order.by
+##' @param decreasing
+##' @param head
+##' @param n
+##' @return
+##' @author
 .ls.objects <- function (pos = 1, pattern, order.by,
                         decreasing=FALSE, head=FALSE, n=5) {
     napply <- function(names, fn) sapply(names, function(x)
